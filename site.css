@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsive {
+    max-width: 50%;
+    height: 200px;
+    width: auto;
+}
+
+/* title + GENERAL */
+
+.header h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.contenedor-hoteles {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LEFT BOX*/
+
+.contenedor-hotel {
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin: 6px;
+    min-width: fit-content;
+}
+
+.hotel-description {
+    display: block;
+}
+
+.hotel-name {
+    font-size: 32px;
+    padding: 10px 0 ;
+    text-transform: uppercase;
+    margin: 6px;
+
+}
+
+.hotel-location {
+    font-size: 16px;
+    margin: 6px;
+    padding: 10px 0;
+    font-weight: lighter;
+
+}
+
+img.hotel {
+    position: relative;
+    text-align: center;
+    margin: 6px;
+    height: 150px;
+    width: auto;
+    display: flex;
+}
+
+/* RIGHT BOX */
+
+.contenedor-opinion {
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    margin: 6px;
+    width: 50%;
+    height: fit-content;
+    display: block;
+}
+.stars {
+    font-size: 20px;
+    padding: 8px 0 16px 0;
+    border-bottom: 1px solid #cdcdcd;
+    color: orange;
+}
+
+.anonimous {
+    font-weight: lighter;
+    padding: 8px 0 16px 0;
+    margin: 16px 0 0 0;
+
+}
+
+span {
+    font-weight: lighter;
+}
